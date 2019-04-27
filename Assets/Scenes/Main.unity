@@ -152,22 +152,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OneSideMagneticWall:
-  - {fileID: 2726544226298825160, guid: 075aa347ce9d2e84c88858e1c811c4cd, type: 3}
-  - {fileID: 1914179122432133042, guid: ed6691aa81d27854e942c7653a6eb934, type: 3}
-  - {fileID: 5473262610390936215, guid: 81aac4ad14fbadc42ad18e85ded19e24, type: 3}
-  - {fileID: 7125567266723292156, guid: b841301fbcd4534419caabdedea52245, type: 3}
+  - {fileID: 7176787098297905127, guid: 075aa347ce9d2e84c88858e1c811c4cd, type: 3}
+  - {fileID: 6935424074750951558, guid: ed6691aa81d27854e942c7653a6eb934, type: 3}
+  - {fileID: 3070988437421918545, guid: 81aac4ad14fbadc42ad18e85ded19e24, type: 3}
+  - {fileID: 3688481094423332853, guid: b841301fbcd4534419caabdedea52245, type: 3}
   twoSideMagneticWall:
-  - {fileID: 803935290620682872, guid: 9e43edac39e13c84998c6804ffca5dc7, type: 3}
-  - {fileID: 8705284347136570303, guid: bbec8a647da9c4448a2ad07abbebfc14, type: 3}
-  - {fileID: 2162316619003525060, guid: 812f2e1bd8847cd408661033555be76e, type: 3}
-  - {fileID: 6431335100024046591, guid: 5cfa873792b18fb498b5ef325b5017c7, type: 3}
-  - {fileID: 7746667363014105892, guid: a37c086359a72e540bfa840c018dd1a1, type: 3}
-  - {fileID: 5635142050614655195, guid: ff862aba49ae3864c9f7902757258156, type: 3}
+  - {fileID: 8201434512105912451, guid: 9e43edac39e13c84998c6804ffca5dc7, type: 3}
+  - {fileID: 4044070880415258136, guid: bbec8a647da9c4448a2ad07abbebfc14, type: 3}
+  - {fileID: 1821759732524477452, guid: 812f2e1bd8847cd408661033555be76e, type: 3}
+  - {fileID: 5765748141521387959, guid: 5cfa873792b18fb498b5ef325b5017c7, type: 3}
+  - {fileID: 3649496793421109134, guid: a37c086359a72e540bfa840c018dd1a1, type: 3}
+  - {fileID: 3096401518118542875, guid: ff862aba49ae3864c9f7902757258156, type: 3}
   threeSideMagneticWall:
-  - {fileID: 2884915410113664187, guid: 1b84aaa2af0ac87449647c9193aa2346, type: 3}
-  - {fileID: 5285198723168270027, guid: 68bede3cf41282b4d9f1aa413053dcb1, type: 3}
-  - {fileID: 176506559770469692, guid: aaac6ce5fef7e6141b90caa2e17e6845, type: 3}
-  - {fileID: 4509755666240080832, guid: 27d035ef849e8d842a557718e0ed554c, type: 3}
+  - {fileID: 3234708272314424362, guid: 1b84aaa2af0ac87449647c9193aa2346, type: 3}
+  - {fileID: 5233724609326487651, guid: 68bede3cf41282b4d9f1aa413053dcb1, type: 3}
+  - {fileID: 6464623189348856076, guid: aaac6ce5fef7e6141b90caa2e17e6845, type: 3}
+  - {fileID: 358368235753636789, guid: 27d035ef849e8d842a557718e0ed554c, type: 3}
   fourSideMagneticWall: {fileID: 7380718278539454462, guid: bb785cd7af027884b8c51b5ea7458249,
     type: 3}
   wall: {fileID: 7664965154008734064, guid: b81c844bb6b1b5a4283072591d2ca0ad, type: 3}
@@ -311,6 +311,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1496df76911beb48ad73f94f5978858, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  smoothing: 1
+  restTime: 1
+  restTimer: 0
+  targetPos: {x: 1, y: 1}
 --- !u!212 &1584118527
 SpriteRenderer:
   m_ObjectHideFlags: 0
